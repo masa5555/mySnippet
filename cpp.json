@@ -1,0 +1,17 @@
+{
+	"in": {
+		"prefix": "ci",
+		"body": [
+			"$1 $2;\ncin >> $2;"
+		],
+		"description": "cin >> ;"
+	},
+	"out": {
+		"prefix": "co",
+		"body": [
+			"cout << $1 << endl;"
+		],
+		"description": "cout << << endl;"
+	},
+	
+}
